@@ -90,7 +90,7 @@ namespace WordleGameMichaelFerry
             };
 
             playButton.Clicked += PlayButtonClicked;
-            settingsButton.Clicked += SettingsButtonClicked;
+            
             instructionsButton.Clicked += InstructionsButtonClicked;
             aboutButton.Clicked += AboutButtonClicked;
             
@@ -100,7 +100,7 @@ namespace WordleGameMichaelFerry
 
             middleLevel.Children.Add(instructionsButton);
             middleLevel.Children.Add(aboutButton);
-            middleLevel.Children.Add(settingsButton);
+            
         }
         //All the pushers for when a button is clicked to bring you to the destination page
 
@@ -110,11 +110,6 @@ namespace WordleGameMichaelFerry
             await Navigation.PushAsync(new GamePage());
         }
 
-        //Pushes you to Settings
-        private async void SettingsButtonClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new SettingsPage());
-        }
 
         //Pushes you to InstrcutionsPages
         private async void InstructionsButtonClicked(object sender, EventArgs e)
