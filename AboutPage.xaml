@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordleGameMichaelFerry.AboutPage">
+    
+    <VerticalStackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+        
+        <Label Text="About"
+           FontSize="32"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"
+           VerticalOptions="StartAndExpand" 
+        />
+                <StackLayout WidthRequest="500">
+                    
+                    <VerticalStackLayout x:Name="layout">
+                            <Label Text="Name: "
+                               FontSize="32"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start" 
+                            />
+                                <Label Text="Michael Ferry"
+                                    FontSize="32"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Start" 
+                                />
+
+                            <Label Text="Email: "
+                               FontSize="32"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start" 
+                            />   
+                                <Label Text="G00420185@atu.ie"
+                                       FontSize="32"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Start" 
+                                />
+                    </VerticalStackLayout>
+                    
+                </StackLayout>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>

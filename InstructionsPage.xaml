@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordleGameMichaelFerry.InstructionsPage">
+
+    <VerticalStackLayout Spacing="15" VerticalOptions="CenterAndExpand">
+        
+        <!--Label for how to play Wordle-->
+        <Label Text="How To Play Wordle"
+               FontSize="32"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand" 
+        />
+        
+        <!--Stack layout for all the text-->
+        <StackLayout WidthRequest="750">
+            <VerticalStackLayout x:Name="layout">
+                
+                <!--Step One Label-->
+                <Label Text="Step One:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" 
+                />
+                
+                <!--Step One Text-->
+                        <Label Text="Guess a number of words within 5 guesses."
+                               FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" 
+                        />
+                
+                <!--Step Two Label-->
+                <Label Text="Step Two:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" 
+                />
+                    <!--Step Two Text-->
+                    <Label Text="Click the keyboard buttons to make guesses."
+                           FontSize="16"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start" 
+                    />
+                
+                <!--Step Three Label-->
+                <Label Text="Step Three:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" 
+                />
+                
+                    <!--Step Three Text-->
+                    <Label Text="Use the 'Backspace' button to go back and re-enter a character."
+                           FontSize="16"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start" 
+                    />
+                
+                <!--Step Four Label-->
+                <Label Text="Step Four:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" 
+                />
+                
+                    <!--Step Four Text-->
+                    <Label Text="Submit your guess when you think you have got it, if not try again."
+                           FontSize="16"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start" 
+                     />
+                
+            </VerticalStackLayout>
+            
+        </StackLayout>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>
